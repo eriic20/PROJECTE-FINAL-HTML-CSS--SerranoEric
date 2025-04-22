@@ -20,7 +20,7 @@ main {
 }
 
 .cartas {
-  border: 5px solid black;
+  border: 6px solid black;
 }
 img {
   object-fit: contain;
