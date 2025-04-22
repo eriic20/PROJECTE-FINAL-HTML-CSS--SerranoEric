@@ -1,0 +1,29 @@
+header {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.cartas {
+  border: 5px solid black;
+}
+img {
+  object-fit: contain;
+  width: 500px;
+  aspect-ratio: 1/1;
+}
