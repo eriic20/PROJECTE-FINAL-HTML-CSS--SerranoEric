@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.seccion-diseño {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: white;
+}
+
+.seccion-diseño h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+  color: #1a1a1a;
+  max-width: 700px;
+}
+
+.contenedor-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.item-diseño {
+  flex: 1 1 calc(25% - 20px);
+  min-width: 260px;
+}
+
+.numero {
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.432);
+  display: block;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.item-diseño p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.carta-imagen {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.carta-imagen img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-sobre-imagen {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent);
+}
+
+.texto-sobre-imagen h3 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+}
+
+.texto-sobre-imagen p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.mida-letras {
+  font-size: 20px;
+}
+  
