@@ -1,0 +1,53 @@
+body{
+    font-family: 'Lato';
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+.container {
+    border: 1px solid gray;
+    width: 1440px;
+    height: 994px;
+    background-image: url(imagenes/imagenfondocarta29.png);
+    background-repeat: no-repeat;
+}
+
+.texto1 {
+    width: 581px;
+    height: 494px;
+    margin-top: 121px;
+    margin-left: 64px;
+    gap: 48px;
+}
+
+.texto1 h1 {
+    height: 172px;
+    color: white;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.texto1 p {
+    font-size: 24px;
+    color: white;
+    line-height: 32px;
+}
+
+.get-started {
+    width: 222px;
+    height: 66px;
+    border-radius: 40px;
+    top: 24px;
+    gap: 10px;
+    font-size: 22px;
+    border: none;
+}
+
+.imagenes-abajo {
+    margin-top: 100px;
+    margin-left: 64px;
+    width: 1312px;
+    height: 168px;
+}

@@ -51,9 +51,9 @@ body {
 }
 
 .carta-imagen img {
-  width: 100%;
-  height: auto;
   display: block;
+  width: 300px;
+  height: 400px;
 }
 
 .texto-sobre-imagen {

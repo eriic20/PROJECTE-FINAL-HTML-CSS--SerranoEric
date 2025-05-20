@@ -1,53 +1,49 @@
 body {
-    margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
   }
   
   .seccion-proyectos {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 40px;
-    background-color: white;
+    width: 1440px;
+    height: 954px;
   }
   
   .seccion-proyectos h1 {
-    font-size: 42px;
-    margin-bottom: 40px;
+    font-size: 80px;
     color: #1a1a1a;
+    width: 531px;
+    height: 208px;
+    margin-top: 55px;
+    margin-left: 55px;
+    line-height: 100px;
   }
   
   .contenedor-tarjetas {
     display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }  
-
-  .tarjeta {
-    flex: 1;
-    min-width: 280px;
-    max-width: 350px;
-  }
   
   .numero {
-    display: block;
-    font-size: 20px;
+    font-size: 35px;
     color: #999;
-    font-weight: bold;
-    margin-bottom: 10px;
+    width: 40px;
+    height: 50px;
+    font-weight: 700;
+    margin-left: 60px;
   }
   
   .tarjeta p {
-    font-size: 16px;
+    font-size: 21px;
     color: #444;
-    line-height: 1.6;
-    margin-bottom: 15px;
+    width: 350px;
+    height: 100px;
+    margin-left: 60px;
   }
   
   .tarjeta img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
+    width: 400px;
+    height: 345px;
+    margin-left: 60px;
   }

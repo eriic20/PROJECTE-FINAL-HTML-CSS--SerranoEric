@@ -1,0 +1,58 @@
+body{
+    font-family: 'Lato';
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+.container {
+    color: solid gray;
+    width: 1440px;
+    height: 1024px;
+    background-image: url(imagenes/cartafondo23.png);
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    width: 684px;
+    height: 454px;
+    margin-top: 170px;
+    margin-left: 65px;
+    gap: 24px;
+}
+
+.titulo h1 {
+    width: 684px;
+    height: 212px;
+    color: white;
+    font-size: 88px;
+    margin: 0;
+}
+
+.titulo p {
+    font-size: 24px;
+    font-weight: 400px;
+    height: 128px;
+    width: 568px;
+    color: white;
+}
+
+.get-started {
+    width: 216px;
+    height: 66px;
+    border-radius: 16px;
+    gap: 10px;
+    font-size: 24px;
+    border: none;
+}
+
+.imagenes-abajo {
+    width: 1284px;
+    height: 232px;
+    margin-left: 64px;
+    gap: 24px;
+    margin-top: 55px;
+}
+
+
