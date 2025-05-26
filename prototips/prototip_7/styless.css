@@ -1,3 +1,15 @@
-body {
-  
+body{
+    font-family: 'Work Sans';
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+.container {
+    border: 1px solid gray; /*para poner el borde gris*/
+    width: 1440px; /*Anchura*/
+    height: 926px; /*altura*/
+    background-color: #9C2004; /*el color de fondo*/
+    display: flex; /*para que se ponga una al lado de la otra*/
 }
